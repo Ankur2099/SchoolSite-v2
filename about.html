@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <section class="sub-header">
+      <!-- Navbar -->
+      <nav>
+        <a href="index.html"
+          ><img src="./img/graduation-309661_1280.png" class="logo" alt=""
+        /></a>
+
+        <div id="navLinks" class="nav-links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+
+
+    <!-- About Us Content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h2>We Are One Of The Best Educational Institutions</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nulla iure nihil voluptatem maxime necessitatibus expedita alias nam deserunt voluptatibus, consequuntur dolorum fugit incidunt officiis recusandae nemo nisi autem rem quisquam facere qui, esse tempore assumenda error. Rerum ex qui neque enim sed temporibus nobis aut, vitae dolores ad vero est, tenetur fugit praesentium expedita ducimus incidunt eos in voluptatem sequi! Dignissimos cumque dolorem tempora nemo? Excepturi temporibus hic odit?</p>
+                <a href="courses.html" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="./img/boy-330582_1280.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    
+
+
+    
+    <section class="footer">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> nam perspiciatis ea? Veritatis perferendis earum maiores architecto! Beatae quidem optio.
+      </p>
+      
+      <div class="icons">
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>2021 Developed by &copy; Codatrix</p>
+    
+
+    <!-- JavaScript For Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+      
+    </script>
+  </body>
+</html>

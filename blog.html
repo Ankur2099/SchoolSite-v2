@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <section class="sub-header">
+      <!-- Navbar -->
+      <nav>
+        <a href="index.html"
+          ><img src="./img/graduation-309661_1280.png" class="logo" alt=""
+        /></a>
+
+        <div id="navLinks" class="nav-links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Blogs and Posts</h1>
+    </section>
+
+
+    <!-- Blog Page Content -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="./img/banner.png" alt="">
+            <h2>About Our Trainings & Programs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti unde voluptatum laborum reprehenderit quibusdam, repudiandae ut magnam porro, molestiae pariatur natus illum rerum consectetur voluptatem magni! Porro nam odio quisquam, assumenda animi nemo, laudantium vero itaque eius exercitationem doloribus nobis tempora sunt nesciunt tempore? 
+                
+                <br> <br> Ea inventore blanditiis officiis fugiat, et quasi ad vero quaerat soluta est repellat nesciunt non quidem odit id beatae! Porro consequuntur totam placeat corrupti nulla corporis.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos temporibus unde reiciendis iusto officia dignissimos placeat hic commodi, atque sint maiores voluptatem aspernatur saepe, rem iure! Quae provident iure rem dolores est placeat quaerat deserunt consectetur. Laudantium, ullam deserunt. Blanditiis, quibusdam voluptatum. Nostrum labore, quasi reprehenderit maxime esse perferendis ipsa doloribus aliquid nihil harum! Ut sit delectus quasi autem eveniet voluptate eaque vitae, optio nesciunt deleniti sequi corrupti explicabo dignissimos. Odio unde ea itaque illum, cum quia eius est qui facere sed modi laudantium neque? Dolore provident velit saepe eligendi cumque est quisquam soluta, voluptate cum odit sint esse fugiat.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio exercitationem magni iste nulla et quam commodi sequi, esse ipsum reiciendis blanditiis. Doloribus repudiandae, autem corrupti dolorum eos eum libero <br> <br> fugit dolor sit cumque dicta et veniam accusamus excepturi laboriosam vel aut.    Asperiores molestias nemo veritatis inventore, nostrum ipsam consequuntur! Illum.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus sit animi veniam temporibus a rem reprehenderit ad? Ea omnis voluptas exercitationem magnam est enim mollitia dolorum facere culpa voluptate cum aperiam blanditiis, ut in, totam eius? Nihil modi tenetur saepe.</p> <br> <br>
+
+                <!-- <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div> -->
+                
+        </div>
+        <div class="blog-right">
+
+        <h3>Post Submissions By Students</h3>
+        <div>
+            <span>Computer Science</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>English Writing</span>
+            <span>16</span>
+        </div>
+        <div>
+            <span>Social Sciences</span>
+            <span>19</span>
+        </div>
+        <div>
+            <span>Sports</span>
+            <span>23</span>
+        </div>
+        <div>
+            <span>Financial Marketing</span>
+            <span>17</span>
+        </div>
+        <div>
+            <span>Science and Technology</span>
+            <span>53</span>
+        </div>
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <!--Footer  -->
+    <section class="footer">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> nam perspiciatis ea? Veritatis perferendis earum maiores architecto! Beatae quidem optio.
+      </p>
+      
+      <div class="icons">
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>2021 Developed by &copy; Codatrix</p>
+    
+
+    <!-- JavaScript For Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <section class="sub-header">
+      <!-- Navbar -->
+      <nav>
+        <a href="index.html"
+          ><img src="./img/graduation-309661_1280.png" class="logo" alt=""
+        /></a>
+
+        <div id="navLinks" class="nav-links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Contact Us</h1>
+    </section>
+
+
+    <!-- Contact  Us Content -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14004.28485191548!2d77.08075573199632!3d28.65758631852478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0462ed1b10db%3A0x8490f72075b4f6c1!2sMeera%20Bagh%2C%20Paschim%20Vihar%2C%20Delhi!5e0!3m2!1sen!2sin!4v1618670958399!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+   <section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home fa-2x"></i>
+                <span>
+                    <h4>747 Street, West Building</h4>
+                    <p>Paschim Vihar, New Delhi, IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone fa-2x"></i>
+                <span>
+                    <h4>+91-11-555-5555</h4>
+                    <p>Monday To Saturday, 10 AM to 6 PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope fa-2x"></i>
+                <span>
+                    <h4>contact@gmail.com</h4>
+                    <p>Email Us Your Query</p>
+                </span>
+            </div>
+        </div>
+        <!-- <div class="contact-col">
+            <form action="">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email"placeholder="Enter your email" required>
+                <input type="text" name="subject" placeholder="Enter your subject " required>
+                <textarea  rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div> -->
+        <div class="about-col contact-right-img">
+          <img src="./img/contact-us.jpg" alt="">
+      </div>
+    </div>
+   </section>
+    
+
+<!-- Footer -->
+    
+    <section class="footer">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> nam perspiciatis ea? Veritatis perferendis earum maiores architecto! Beatae quidem optio.
+      </p>
+      
+      <div class="icons">
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://www.codatrix.com/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>2021 Developed by &copy; Codatrix</p>
+    
+
+    <!-- JavaScript For Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+      
+    </script>
+  </body>
+</html>
